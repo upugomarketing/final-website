@@ -330,7 +330,17 @@
 	<div class="modal fade first_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-sm">
 		<div class="modal-content">
-		  1st detail...
+			<H1>
+		  Daniel Cabral
+		  </H1>
+		  <p>
+		  Daniel Cabral has been working in the Philippine IT industry for 5 years and counting. He honed his skills as a software developer as well as an Analyst for big
+		  players in different industries, gaining vital knowledge in developing and maintaining enterprise applications.
+		  </p>
+		  <p>
+		  He is a critical thinker who loves to combine the in depth technicality of code with the versatile beauty of design. He is in charge of the health of our managed
+		  websites and will strive to develop innovative and user friendly websites for both corporate and individual clients.
+		  </p>
 		</div>
 	  </div>
 	</div>
@@ -338,7 +348,25 @@
 	<div class="modal fade second_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-sm">
 		<div class="modal-content">
-		  2nd detail...
+			<H1>
+		  Roger Braun
+		  </H1>
+		  <p>
+		  Roger Braun has the actual experience of building something from scratch and built up sales from zero.
+		  Based on his previous business venture, this was a very crucial step towards an established business as early sales determined the health of a venture.
+		  The determination and hard work which was invested in the business enabled the entrepreneur to dominate as well as limit the competitors operations in the area where the business was based in.
+		 		  
+		 </p>
+		 <p>
+		  Furthermore, he has actual experiences in marketing and sales in the vicinity of Metro Manila. It means that he knows
+		  what it takes to find opportunities and what it takes to close a deal in the local market.
+		  He will capitalize on that by driving excellence to a new level through proper service execution that the whole company will adhere to.
+		 </p>
+		 <p>
+		  <B>Products/ Services rendered:</B> Administrative work, Marketing, Accounting, Operations, Management, Sales<br/>
+		  <B>Skills Acquired:</B> Problem Solving, Critical Thinking, Decision Making, Monitoring, Organization, Accounting<br/>
+		  <B>Values Learned:</B> Direct marketing and a direct relationship with clients are essential in the success of a start up business.</br>
+		 </p>
 		</div>
 	  </div>
 	</div>
@@ -346,12 +374,27 @@
 	<div class="modal fade third_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-sm">
 		<div class="modal-content">
-		  3rd detail...
+			<H1>
+		  Jade Javier
+		  </H1>
+		  <p>
+		  Jade Javier has professional backgrounds in the fields of creative designing, marketing management, and customer relations.
+		  With the use of all these experiences and numerous art related careers, she was able to have a clearer perspective on creating a bigger purpose for brand building.
+		  </p>
+		  <p>
+		  She personally believes that creating a brand is more than just putting yourself out there and selling what you have, it also means holding on to the customers for a more authentic relationship. 
+		  Each creative material she provides not only has a colorful touch to it but has a meaningful purpose behind it relative to anyone who has the chance to witness it.
+		  </p>
+		  <p>
+		  "I believe that with the help of the rest of the team whom I've noticed have natural entrepreneurial and technical skills, merging all of these talents of ours will create a great formula of both endless possibilities and friendship with each other and towards the client!".
+		  With that said, what is the point of building a bridge if you can't crossover both ends simultaneously? Up U Go is able to live out the true meaning of building connections by making sure both ends will always meet. 
+		 </p>
 		</div>
 	  </div>
 	</div>
 
 <!-- Contact Section -->
+
     <section class="bg-tertiary" id="contact">
         <div class="container">
             <div class="row">
@@ -403,6 +446,52 @@
         </div>
     </section>
 
+<!-- /map -->
+
+    <section class="no-padding">   
+		<div id="googleMap" class="row">
+			<div id="mapimg" class="col-lg-6">
+				<div>
+					<h2 class="mapheading">Contact Information</h2>
+                    <hr class="light">
+				</div>
+				<div>
+					<h3 class="padding">
+						Address:
+					</h3>
+					<p>
+						Unit 3i, 3F Cityland Pacific Regency, 760 Pablo Ocampo St.,Manila, Philippines
+					<p>
+					<h3 class="padding">
+						Landline:
+					</h3>
+					<p class="numberfont">
+						(02) 353 7477
+					<p>
+					<h3 class="padding">
+						Mobile Number:
+					</h3>
+					<p class="numberfont">
+						+63 915 873 5236
+					<p>
+					<h3 class="padding">
+						Email Address:
+					</h3 class="padding">
+					<p>
+						contact@upugomarketing.com
+					<p>
+				</div>
+			</div>
+				<div id="mapcolumn"class="col-lg-6">
+					<div id="map">
+						<div id="gmap_canvas">
+						
+						</div>
+					</div>
+				</div>	
+		</div>
+	</section>	
+	
 <!-- /footer -->	
 
 	<footer class="panel-footer">
@@ -416,7 +505,7 @@
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/pages/Up-U-Go-Marketing-Firm/1605808199702129?" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
@@ -448,6 +537,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+	
+	<!--Google Map JavaScript-->
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(14.561320893736426,120.9943360820007),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(14.561320893736426, 120.9943360820007)});infowindow = new google.maps.InfoWindow({content:"<b>Up U Go</b><br/>760 Pablo Ocampo St<br/>1004 Manila" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
 </body>
 
