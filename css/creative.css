@@ -70,7 +70,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-
+    background-repeat: no-repeat;
 }
 .bg-tertiary{
 	background-color: #c1c1c1;
@@ -303,7 +303,6 @@ header {
 	height:auto;
 	background: url(../img/header.gif);
 	background-size:cover;
-	
 }
 .flashfile{
 width:100%;
@@ -719,6 +718,7 @@ width:100%;
 	background-image:url(../img/map.jpg);
 	background-size:cover;
 	height:570px;
+    background-repeat: no-repeat;
 }
 
 #mapcolumn{
