@@ -604,19 +604,19 @@ fieldset[disabled] .btn-primary.active {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
-    margin-top: 200px;
+    width: 60%;
+    margin-top: 100px;
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
   }
   .modal-sm {
-    width: 300px;
+    width: 70%;
   }
 }
 ::-moz-selection {
@@ -708,4 +708,44 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #f05f40;
+}
+#googleMap{
+margin:0;
+width:100%;
+}
+
+#mapimg{
+	background-image:url(../img/map.jpg);
+	background-size:cover;
+	height:570px;
+}
+
+#mapcolumn{
+	padding:0;
+}
+
+#map{
+	margin:0;
+	overflow:hidden;
+	transform:translateZ(0px)
+}
+#gmap_canvas{
+	height:570px;
+	width:100%;
+	img:{max-width:none!important;background:none!important};
+}
+
+.mapheading{
+	text-align:center;
+	margin-top: 0;
+	padding:25px 0 0 5px;
+	color: #333333;
+	
+	}
+.numberfont{
+	font-family:Arial,sans-serif;
+}
+
+.padding{
+	padding:15px 0 0 0;
 }
