@@ -137,7 +137,7 @@ aside {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
-	width:75%;
+	
 	height:100px;
 	margin:0;
 	padding:0 10px;
@@ -225,7 +225,7 @@ aside {
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #f05f40;
-		width:65%;
+		
 		height:80px;
 		margin:0 0 0 25px;
 		padding:0 10px;
@@ -416,13 +416,14 @@ header .header-content .header-content-inner p {
 }
 /*!
  * To edit bullet point text inside services
+ * Removed "transform: translateY(-50%)" because safari browser can' t interpret and changed top from "50% to 25%"
  */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
-    top: 50%;
+    top: 25%;
     width: 100%;
     text-align: left;
-    transform: translateY(-50%);
+    
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
