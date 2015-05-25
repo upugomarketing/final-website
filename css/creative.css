@@ -606,7 +606,7 @@ fieldset[disabled] .btn-primary.active {
 #portfolio .btn{
     border-style:solid;
     border-width: 3px;
-    border-color: #FFC100;
+    
 }
 .modal-dialog {
   position: relative;
@@ -626,6 +626,11 @@ fieldset[disabled] .btn-primary.active {
   .modal-sm {
     width: 70%;
   }
+ /*!
+ * Modal blue line outside box
+ */
+ .modal-open .modal,.btn:focus{
+    outline:none!important
 }
 ::-moz-selection {
     text-shadow: none;
