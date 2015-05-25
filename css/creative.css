@@ -130,7 +130,7 @@ aside {
     transition: all .35s;
 }
 /*!
- * This is where I adjusted default logo size for zoom in and zoom out
+ * This is where I adjusted default logo size for zoom out
  */
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
@@ -138,7 +138,7 @@ aside {
     font-weight: 700;
     color: #f05f40;
 	
-	height:100px;
+	height:68px;
 	margin:0;
 	padding:0 10px;
 	
@@ -191,9 +191,12 @@ aside {
         background-color: transparent;
 		
     }
-
+/*!
+ * Navbar logo default size for zoom in
+ */
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
+		height:100px;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
