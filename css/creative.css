@@ -3,7 +3,6 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 html,
 body {
     width: 100%;
@@ -119,9 +118,6 @@ aside {
 .no-padding {
     padding: 0;
 }
-/*!
- * This is where I adjusted navbar resized color
- */
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -130,49 +126,35 @@ aside {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-/*!
- * This is where I adjusted default logo size for zoom out
- */
+
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
     color: #f05f40;
-	
 	height:65px;
 	margin:0;
 	padding:0 10px;
-	
-	
-	
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
 }
-/*!
- * I adjusted font arrangement from to top25px
- *Also edited navbar font color
- */
+
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 700;
     color: #fff;
-	top:25px;
-	
-	
 }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
     color: #f05f40;
 }
-/*!
- * navbar font color changes when scrolling to category
- */
+
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #FF6630!important;
@@ -183,18 +165,13 @@ aside {
 .navbar-default .nav>li.active>a:focus:hover {
     background-color: transparent;
 }
-/*!
- * navbar initial color
- */
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
-		
     }
-/*!
- * Navbar logo default size for zoom in
- */
+
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
 		height:100px;
@@ -204,9 +181,7 @@ aside {
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
     }
-/*!
- * with rgba one can change font color in navbar
- */
+
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: rgba(255,255,255,.7);
@@ -216,16 +191,12 @@ aside {
     .navbar-default .nav>li>a:focus:hover {
         color: #fff;
     }
-/*!
- * navbar initial background color when scrolling
- */
+
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #333333;
+         background-color: #333333;
     }
-/*!
- * resizing logo when scrolling
- */
+
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #f05f40;
@@ -239,38 +210,25 @@ aside {
     .navbar-default.affix .navbar-header .navbar-brand:focus {
         color: #eb3812;
     }
-/*!
- * navbar scroll down font color
- *Also adjusted font arrangement from top25px to top15px when scroll down
- */
+
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
         color: #fff;
-		top:15px;
     }
-/*!
- * role over font on navbar
- */
+
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #FF6630;
     }
 }
-/*!
- * This is where the background image is contained
- */
+
 header {
     position: relative;
     width: 100%;
     min-height: auto;
     text-align: center;
     color: #fff;
-   
-	
 }
-/*!
- * Added video start
- */
 #overlay{
 	background-color: rgba(0,0,0,0.7);
 	position:absolute;
@@ -316,9 +274,7 @@ min-height:100%;
 width:auto;
 	height:auto;
 }
-/*!
- * Added video End
- */
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -372,9 +328,7 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
-/*!
- * Font color for section heading
- */
+
 .section-heading {
     margin-top: 0;
 	color: #333333;
@@ -401,9 +355,7 @@ header .header-content .header-content-inner p {
     margin: 0 auto;
     max-width: 650px;
 }
-/*!
- * This is where I changed roll over button box caption color
- */
+
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -413,21 +365,17 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(255,102,48,.9);
+   background: rgba(255,102,48,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-/*!
- * To edit bullet point text inside services
- * Removed "transform: translateY(-50%)" because safari browser can' t interpret and changed top from "50% to 25%"
- */
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
     top: 25%;
     width: 100%;
     text-align: left;
-    
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
@@ -435,17 +383,13 @@ header .header-content .header-content-inner p {
     padding: 0 15px;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
-/*!
- * Edited uppercase by deleting it
- */
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    
     font-size: 14px;
     font-weight: 600;
 }
-/*!
- * To edit bullet point header inside services
- * Added uppercase
- */
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     text-transform: uppercase;
 	font-size: 16px;
@@ -479,9 +423,7 @@ header .header-content .header-content-inner p {
     padding-right: 0;
     padding-left: 0;
 }
-/*!
- * Header button color defalut
- */
+
 .btn-default {
     border-color: #333333;
     color: white;
@@ -490,9 +432,7 @@ header .header-content .header-content-inner p {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-/*!
- * Header button color defalut scrolling
- */
+
 .btn-default:hover,
 .btn-default:focus,
 .btn-default.focus,
@@ -500,7 +440,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: white;
+   color: white;
     background-color: #282828;
 }
 
@@ -536,20 +476,16 @@ fieldset[disabled] .btn-default.active {
     color: #fff;
     background-color: #222;
 }
-/*!
- * Header button color primary
- */
+
 .btn-primary {
-    border-color: #ffc100;
+     border-color: #ffc100;
     color: black;
     background-color: #ffc100;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-/*!
- * Header button color upon scrolling
- */
+
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -595,6 +531,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
+   
     border-radius: 300px;
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -607,8 +544,8 @@ fieldset[disabled] .btn-primary.active {
 #portfolio .btn{
     border-style:solid;
     border-width: 3px;
-    
 }
+
 .modal-dialog {
   position: relative;
   width: auto;
@@ -627,6 +564,7 @@ fieldset[disabled] .btn-primary.active {
   .modal-sm {
     width: 70%;
   }
+}
  /*!
  * Modal blue line outside box
  */
