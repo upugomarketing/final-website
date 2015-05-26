@@ -98,6 +98,7 @@ p {
 
 section {
     padding: 100px 0;
+	width:100%;
 }
 
 aside {
@@ -763,3 +764,8 @@ width:100%;
 .padding{
 	padding:15px 0 0 0;
 }
+.marginmap{
+	margin:40px;
+}
+
+
