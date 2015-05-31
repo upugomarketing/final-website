@@ -14,6 +14,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://www.upugomarketing.com/" />
     <meta property="og:image" content="http://www.upugomarketing.com/img/upugob.png" />
+    <meta name="format-detection" content="telephone=no">
 	<link rel="image_src" href="img/upugob.png">
 	
     <title>Up U Go Marketing Firm</title>
@@ -49,10 +50,21 @@
     <link rel="icon" 
       type="image/png" 
       href="img/favicon.png" />
+
+    <script>
+
+       window.onload = function() {
+          if(/iP(hone|ad)/.test(window.navigator.userAgent)) {
+            document.body.addEventListener('touchstart', function() {}, false);
+          }
+        };
+
+    </script>
+
 	
 </head>		
 
-<body id="page-top">
+<body id="page-top" >
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -235,7 +247,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
+                    <div class="portfolio-box" >
                         <img src="img/portfolio/i5.png" class="img-responsive" alt="Traditional Marketing">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
