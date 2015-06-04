@@ -31,7 +31,7 @@ hr.team{
 }
 
 a {
-    color: #f05f40;
+    color: #FF6630;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -103,7 +103,17 @@ aside {
     padding: 50px 0;
 }
 
+#lg{
+	font-size:10px !important;
+	padding:0;
+	text-indent:-10000px;
+}
 
+.servicesize{
+	font-size:17px;
+	padding:0;
+	margin:0;
+}
 
 .copyright{
 	color:#FF6630;
